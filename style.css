@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Basis Grotesque Pro";
+  src: url(/fonts/BasisGrotesquePro-Light.woff2) format(woff2);
+  src: url(/fonts/BasisGrotesquePro-Light.woff) format(woff);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Basis Grotesque Pro";
+  src: url(/fonts/BasisGrotesquePro-Medium.woff2) format(woff2);
+  src: url(/fonts/BasisGrotesquePro-Medium.woff) format(woff);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Basis Grotesque Pro";
+  src: url(/fonts/BasisGrotesquePro-Bold.woff2) format(woff2);
+  src: url(/fonts/BasisGrotesquePro-Bold.woff) format(woff);
+  font-weight: 700;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Basis Grotesque Pro", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.text_blue {
+  color: #0536fc;
+  opacity: 0.9;
+}
+
+.intro__text-block {
+  padding: 146px 0 100px 210px;
+}
+
+.intro__main-heading {
+  font-size: 57px;
+  line-height: 59px;
+  width: 60%;
+  margin-bottom: 70px;
+}
+
+.intro__content {
+  background-image: url(/images/intro-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1110px;
+}
+
+.intro__text-box {
+  height: 62%;
+  padding: 120px 242px 130px 120px;
+}
+
+.intro__secondary-heading {
+  font-size: 38px;
+  line-height: 42px;
+  margin-bottom: 70px;
+}
+
+.intro__paragraph {
+  width: 325px;
+  margin-bottom: 70px;
+}
+
+.intro__btn,
+.intro__btn:hover,
+.intro__btn_l:hover {
+  background-color: #0536fc;
+}
+
+.intro__icon {
+  margin-bottom: 106px;
+  cursor: pointer;
+}
