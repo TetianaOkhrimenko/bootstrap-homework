@@ -60,6 +60,11 @@ p {
   margin-bottom: 70px;
 }
 
+.intro__icon {
+  margin-bottom: 106px;
+  cursor: pointer;
+}
+
 .intro__content {
   background-image: url(/images/intro-image.png);
   background-repeat: no-repeat;
@@ -89,7 +94,43 @@ p {
   background-color: #0536fc;
 }
 
-.intro__icon {
-  margin-bottom: 106px;
-  cursor: pointer;
+@media (max-width: 600px) {
+  .intro__text-block {
+    padding: 2rem;
+  }
+
+  .intro__main-heading {
+    font-size: 28px;
+    line-height: 1.2;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .intro__icon {
+    display: none;
+  }
+
+  .intro__button {
+    padding: 1rem;
+    gap: 5px;
+  }
+
+  .intro__text-box {
+    padding: 2rem;
+  }
+
+  .intro__content {
+    height: 700px;
+  }
+
+  .intro__secondary-heading {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+  }
+
+  .intro__paragraph {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
 }
