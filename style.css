@@ -112,9 +112,8 @@ p {
 
   .intro__button {
     margin: 0 auto;
-    padding: 1rem;
+    padding-bottom: 1rem;
     gap: 5px;
-    width: 100%;
   }
 
   .intro__text-box {
@@ -155,9 +154,8 @@ p {
 
   .intro__button {
     margin: 0 auto;
-    padding: 1rem;
+    padding-bottom: 1rem;
     gap: 5px;
-    width: 100%;
   }
 
   .intro__text-box {
