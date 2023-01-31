@@ -94,7 +94,7 @@ p {
   background-color: #0536fc;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 576px) {
   .intro__text-block {
     padding: 2rem;
   }
@@ -111,8 +111,10 @@ p {
   }
 
   .intro__button {
+    margin: 0 auto;
     padding: 1rem;
     gap: 5px;
+    width: 100%;
   }
 
   .intro__text-box {
@@ -131,6 +133,73 @@ p {
 
   .intro__paragraph {
     width: 80%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 569px) and (max-width: 768px) {
+  .intro__text-block {
+    padding: 2rem;
+  }
+
+  .intro__main-heading {
+    font-size: 28px;
+    line-height: 1.2;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .intro__icon {
+    margin-bottom: 2rem;
+  }
+
+  .intro__button {
+    margin: 0 auto;
+    padding: 1rem;
+    gap: 5px;
+    width: 100%;
+  }
+
+  .intro__text-box {
+    padding: 2rem;
+    height: auto;
+  }
+
+  .intro__secondary-heading {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+  }
+
+  .intro__content {
+    height: 700px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .intro__text-block {
+    padding: 4rem;
+  }
+
+  .intro__main-heading {
+    font-size: 28px;
+    line-height: 1.2;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .intro__icon {
+    margin-bottom: 2rem;
+  }
+
+  .intro__text-box {
+    padding: 2rem;
+    height: auto;
+  }
+
+  .intro__secondary-heading {
+    font-size: 24px;
+    line-height: 1.2;
     margin-bottom: 2rem;
   }
 }
